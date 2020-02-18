@@ -51,4 +51,6 @@
   - Width of each lane in *meter*
 - *x_std_dev_threshold*
 - *y_std_dev_threshold*
-# lidar_lane_detector
+
+## Papers
+- *Jiyoung Jung, Sung-Ho Bae, Real-Time Road Lane Detection in Urban Areas Using LiDAR Data, Electronics, 2018* [[link]](https://www.mdpi.com/2079-9292/7/11/276)
