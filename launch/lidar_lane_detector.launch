@@ -1,0 +1,13 @@
+<launch>
+
+	<node pkg="lidar_lane_detector" type="lidar_lane_detector" name="lidar_lane_detector_node" output="screen">
+		<param name="channel_threshold" value="30" />
+		<param name="angle_threshold" value="5.0" />
+		<param name="intensity_threshold" value="550" />
+		<param name="lane_candidate" value="4" />
+		<param name="lane_width" value="3.0" />
+		<param name="x_std_dev_threshold" value="4.0" />
+		<param name="y_std_dev_threshold" value="0.2" />
+	</node>
+
+</launch>
